@@ -317,6 +317,7 @@ text-decoration-line: underline;
     height: 314px;
     margin-bottom: 79px;
 }
+
 .page5th.text input{
     box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.15);
@@ -351,3 +352,41 @@ height: 58px;
     height: 104px;
     margin-bottom: 24px;
 }
+.last {
+    display: flex;
+    justify-content:space-between;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    max-width:1600px;
+    height: 100px;
+    /* margin: 0 auto; */
+    padding: 20px 0px 20px 0px;
+}
+.footer .last .final h2{
+    position: static;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+.last{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px;
+}
+.footer .footer-icon{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.footer{
+    max-width: 1440px;
+    margin: 0;
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+}
+
