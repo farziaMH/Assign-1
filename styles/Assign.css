@@ -76,7 +76,7 @@
       border: 1px solid rgb(13, 19, 33);
       border-radius: 8px;
       opacity: 0.8;
-      padding: 17px 24px 17px 24px;;
+      padding: 17px 24px 17px 24px;
   }
   .page2nd{
     width: 1140px;
@@ -336,7 +336,7 @@ height: 58px;
 .text{
     display: flex;
     justify-content:center;
-    align-items:center;
+    align-items:end;
     flex-direction: row;
    
 }
@@ -389,4 +389,3 @@ text-align: center;
     border-radius: 16px;
 background: rgba(13, 19, 33, 0.03);
 }
-
