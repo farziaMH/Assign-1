@@ -307,3 +307,47 @@ letter-spacing: 0%;
 text-align: left;
 text-decoration-line: underline;
 }
+.page5th{
+    margin-top: 46px;
+    border-radius: 16px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 314px;
+    margin-bottom: 79px;
+}
+.page5th.text input{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+width: 548px;
+height: 57px;
+margin-right: 16px;
+}
+.page5th.text button{
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+width: 120px;
+height: 58px;
+}
+.text{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+   
+}
+.list{
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.list .banner-secondary{
+    max-width: 730px;
+    height: 104px;
+    margin-bottom: 24px;
+}
